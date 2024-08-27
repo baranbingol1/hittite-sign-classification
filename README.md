@@ -6,14 +6,14 @@ This repository contains the implementation of a ResNeXt101-32x8d model for Hitt
 
 - `src/`: Directory containing main file predict.py and other utility files
 - `requirements.txt`: List of Python dependencies
-- `model/`: Directory containing model weights and label mappings
-  - `resnext101_32dx8_weights.pth`: Trained model weights
+- `model/`: Directory to put model weigh and contains id2label mapping
+  - `resnext101_32dx8_weights.pth`: You can download from [here](https://drive.google.com/file/d/1d_SA1Csh8f4eMNtIW5kaEfBYarLgmMPX/view?usp=sharing)
   - `id2label.json`: Mapping of class indices to Hittite sign labels
 - `example_images/`: Directory containing example Hittite sign images for testing
 
 ## Example Usage
-To classify a Hittite sign image:
-Navigate into src file via
+To classify a Hittite sign image first clone the repo and download weights and put it into model directory:
+Then navigate into src file via
 ```console
 cd src
 ```

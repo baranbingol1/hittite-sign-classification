@@ -12,7 +12,7 @@ This repository contains the implementation of a ResNeXt101-32x8d model for Hitt
 - `example_images/`: Directory containing example Hittite sign images for testing
 
 ## Example Usage
-To classify a Hittite sign image first clone the repo and download weights and put it into model directory:
+To classify a Hittite sign image first clone the repo and download weights and put it into model directory:\
 Then navigate into src file via
 ```console
 cd src
